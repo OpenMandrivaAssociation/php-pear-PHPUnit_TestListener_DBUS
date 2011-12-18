@@ -18,6 +18,7 @@ BuildRequires:	php-pear
 BuildRequires:	php-channel-phpunit
 Suggests:	php-pear-PHPUnit >= 3.6.3
 Suggests:	php-dbus
+BuildRequires:	php-cli
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
